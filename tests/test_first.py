@@ -26,3 +26,8 @@ def test_sum_negative_numbers():
 # Teste a soma de zero com outro número
 def test_sum_zero():
     assert first_function(0, 5) == 5
+
+
+# Teste a soma de uma letra com um número
+def test_sum_letter():
+    assert first_function("a", 5) == 5
