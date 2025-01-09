@@ -30,4 +30,4 @@ def test_sum_zero():
 
 # Teste a soma de uma letra com um número
 def test_sum_letter():
-    assert first_function("a", 5) == 5
+    assert first_function("b", 5) == 5
