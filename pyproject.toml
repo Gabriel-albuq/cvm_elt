@@ -4,7 +4,6 @@ version = "0.1.0"
 description = ""
 authors = ["Gabriel-albuq <gabriel.albuquerque05@gmail.com>"]
 readme = "README.md"
-packages = [{ include = "cvm_etl" }]  # Adicione esta linha
 
 [tool.poetry.dependencies]
 python = "^3.10"
@@ -20,7 +19,6 @@ mkdocstrings-python = "^1.13.0"
 pygments = "^2.19.1"
 mkdocs-material = "^9.5.49"
 pymdown-extensions = "^10.14"
-
 
 [build-system]
 requires = ["poetry-core"]
